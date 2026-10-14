@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Contact Ashish Basnet to talk about your next digital project.">
+  <title>Contact | Contact Ashish Basnet</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><nav class="navbar container" aria-label="Main navigation">
+    <a class="brand" href="index.html"><span class="brand-mark">✦</span> ashish<span class="brand-dot">.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a class="nav-link" href="index.html"><span>⌂</span> Home</a></li>
+      <li><a class="nav-link" href="about.html"><span>◎</span> About Us</a></li>
+      <li><a class="nav-link active" href="contact.html"><span>✉</span> Contact</a></li>
+      <li><a class="nav-cta" href="contact.html">Let's talk <span>↗</span></a></li>
+    </ul>
+  </nav></header>
+  <main>
+    <section class="page-hero contact-hero container">
+      <p class="eyebrow"><span class="eyebrow-dot"></span> LET'S CONNECT</p>
+      <h1>Have a thought?<br><span class="text-gradient">Send a message.</span></h1>
+      <p class="page-intro">Have feedback about this website, a project idea, or a question about my learning? Use the form below.</p>
+    </section>
+    <section class="contact-section container">
+      <div class="contact-info">
+        <p class="eyebrow">GET IN TOUCH</p><h2>I'd like to<br>hear from you.</h2>
+        <p class="contact-note">This contact form is included as part of my Web Technology assignment. It checks the form fields in the browser; it does not send or save messages yet.</p>
+        <div class="contact-detail"><span class="detail-icon">✉</span><div><small>EMAIL</small><a href="mailto:ashish.basnet@example.com">ashish.basnet@example.com</a></div></div>
+        <div class="contact-detail"><span class="detail-icon">⌖</span><div><small>LOCATION</small><p>Bhaktapur, Nepal</p></div></div>
+        <div class="contact-detail"><span class="detail-icon">◷</span><div><small>RESPONSE TIME</small><p>Usually within 1–2 working days</p></div></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row"><label for="fullName">Your name <span>*</span><input id="fullName" name="fullName" type="text" placeholder="e.g. Ashish Basnet" required minlength="2"></label><label for="email">Email address <span>*</span><input id="email" name="email" type="email" placeholder="you@example.com" required></label></div>
+        <label for="subject">What would you like to discuss? <span>*</span><select id="subject" name="subject" required><option value="">Choose a topic</option><option>Website design</option><option>Web development</option><option>Branding and strategy</option><option>Something else</option></select></label>
+        <label for="message">Your message <span>*</span><textarea id="message" name="message" rows="5" placeholder="Tell us a little about your idea..." required minlength="10"></textarea></label>
+        <button class="button button-primary submit-button" type="submit">Send message <span>↗</span></button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+    <section class="map-note container"><span class="map-pin">⌖</span><div><strong>Based in Nepal. Open to the world.</strong><p>BIT student learning web development in Nepal.</p></div><span class="map-spark">✳</span></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">✦</span> ashish<span class="brand-dot">.</span></a><p>A personal web technology learning project.</p><p>© <span class="current-year">2026</span> Contact Ashish Basnet</p></div></footer>
+</body>
+</html>
